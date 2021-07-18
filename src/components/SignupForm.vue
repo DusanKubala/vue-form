@@ -23,6 +23,10 @@
         <label>Accept term and conditions</label>
     </div>
     
+    <div class="submitButton">
+        <button>Submit</button>
+    </div>
+
   </form>
 </template>
 
@@ -106,5 +110,23 @@ export default {
         font-weight: bold;
         color: #777;
         cursor: pointer;
+    }
+
+    button {
+        width: 150px;
+        height: 45px;
+        margin: 50px auto;
+        background: dodgerblue;
+        color: black;
+        border: none;
+        border-radius: 10px;
+        letter-spacing: 0.2em;
+        font-size: 80%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .submitButton {
+        text-align: center;
     }
 </style>
